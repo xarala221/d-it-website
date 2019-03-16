@@ -207,7 +207,9 @@ figure[mbr-media-size] {
   max-width: 100%; }
 
 .mbr-figure img, .card-img img {
-  width: 100%; }
+  width: 338px;
+  height: 328.5px; 
+}
 
 @media (max-width: 991px) {
   .media-size-item {

@@ -1789,9 +1789,12 @@ body {
   flex-basis: auto;
   -webkit-flex-basis: auto;
 }
-.cid-rkSuBVPz2s .nav-link:hover,
+.cid-rkSuBVPz2s ,
 .cid-rkSuBVPz2s .dropdown-item:hover {
   color: #0057ff !important;
+}
+.nav-link:hover{
+  border-bottom: 2px solid #0057ff;
 }
 .cid-rkSw5haPFJ .modal-body .close {
   background: #1b1b1b;

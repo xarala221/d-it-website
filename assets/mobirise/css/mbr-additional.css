@@ -2576,6 +2576,9 @@ body {
     -webkit-justify-content: center;
     justify-content: center;
   }
+  .mobile-event{
+    margin-top: 10px;
+  }
 }
 .cid-rkSTvmNMCU .media-container-row .row-copirayt {
   word-break: break-word;
@@ -2583,4 +2586,8 @@ body {
 }
 .cid-rkSTvmNMCU .media-container-row .row-copirayt p {
   width: 100%;
+}
+
+.dit-events{
+  color: #0057ff;
 }

@@ -14,6 +14,7 @@
   <meta property="og:image" content="assets/images/groupe-1-1080x810.jpg">
   <meta property="og:url" content="http://daara-it.com/index.html">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
 
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -26,7 +27,6 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/gallery/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
 
 
 </head>
@@ -156,7 +156,26 @@
     </div>
   </div>
 
+<!-- events images -->
+<section class="events-images mt-10 p-5">
+  <div class="container">
+    <h2 class="dit-events text-center pb-2">Daara-IT Events</h2>
+    <div class="row">
+      <div class="col-md-6 ">
+<!--           
+            <div class="h4 text-center">La place de l'afrique dans l'évolution numérique</div> -->
+              
+                  <a class="example-image-link" href="assets/images/events/ism.jpg" data-lightbox="example-set" data-title="Titre"><img class="img-fluid example-image" src="assets/images/events/ism.jpg" alt="Events"></a>
+              
+      </div>
+      <div class="col-md-6 mobile-event">
+          <!-- <div class="h4 text-center">Programme</div> -->
 
+          <a class="example-image-link" href="assets/images/events/ism-programme.png" data-lightbox="example-set" data-title="Programme."><img class="img-fluid example-image" src="assets/images/events/ism-programme.png" alt="Programme de l'events"></a>
+      </div>
+    </div>
+  </div>
+</section>
 
   <section class="mbr-section contacts1 cid-rkSRpJ5oYj" id="contacts1-w">
     <!---->
@@ -288,7 +307,14 @@
   <script src="assets/gallery/player.min.js"></script>
   <script src="assets/gallery/script.js"></script>
   <script src="assets/slidervideo/script.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    });
+    console.log("Lightbox", lightbox)
+</script>
 
   <input name="animation" type="hidden">
 </body>
